@@ -1,0 +1,267 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*************CSS RESET****************************/
+
+body,
+input,
+li,
+ul,
+p,
+h1,
+h2 {
+    margin: 0px;
+    padding: 0px;
+}
+
+a:link,
+a:visited,
+a:active {
+    text-decoration: none;
+    color: #08c;
+}
+
+body {
+    font: 19px "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+}
+
+
+
+.navigator {
+    position: absolute;
+    top: 5%;
+    left: 15%;
+    right: 15%;
+    display: flex;
+    flex-direction: row;
+    height: 36px;
+    z-index: 9998;
+    background: #707070;
+    background: -moz-linear-gradient(top, rgba(0, 0, 0, .2) 0, rgba(0, 0, 0, 0) 5%, rgba(0, 0, 0, 0) 97%, rgba(0, 0, 0, .45) 100%), -moz-linear-gradient(left, rgba(0, 0, 0, .2) 0, rgba(0, 0, 0, 0) .2%, rgba(0, 0, 0, 0) 99.8%, rgba(0, 0, 0, .2) 100%), -moz-linear-gradient(bottom, #666 0, #5e5e5e 50%, #707070 51%, #808080 100%);
+    background: -webkit-gradient(linear, 0 0, 0 100%, from(rgba(0, 0, 0, .2)), color-stop(0.05, rgba(0, 0, 0, 0)), color-stop(0.97, rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, .45))), -webkit-gradient(linear, 0 0, 100% 0, from(rgba(0, 0, 0, .2)), color-stop(0.002, rgba(0, 0, 0, 0)), color-stop(0.998, rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, .2))), -webkit-gradient(linear, 0 100%, 0 0, from(#666), color-stop(0.5, #5e5e5e), color-stop(0.51, #707070), to(#808080));
+    border-radius: 4px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0 1px 2px;
+    
+}
+
+
+ul.liston {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+.navigator ul.liston li {
+    flex-direction: row;
+    justify-content: center;
+    padding: 8px 24px;
+    line-height: 1.5em;
+    border-left: 1px solid #999;
+    cursor: pointer;
+}
+
+.navigator ul.liston li.apple-icon {
+    padding: 0px;
+    padding-left: 18px;
+    padding-top: 6px;
+}
+
+.navigator .liston {
+    width: 85.714%
+}
+
+.navigator .liston li a {
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+
+.navigator .search-paper {
+    width: 14.285%;
+    padding-top: 8px;
+}
+
+.navigator .search-paper .form {
+    position: relative;
+}
+
+.navigator .search-paper .label {
+    position: absolute;
+    left: 10%;
+    color: white;
+    font-size: .5rem;
+}
+
+.navigator ul.liston li {
+    width: 12.5%;
+}
+
+.navigator ul.liston li:hover {
+    background-image: radial-gradient(circle, #242528, #323437, #424346, #525356, #626466);
+}
+
+.class-image {
+    background-color: #5e4e4e;
+    height: 500px;
+    background: url(../images/your_verse_hero.jpg) 50% 100% no-repeat;
+}
+
+.newsprint {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+.headon a {
+    color: orange;
+    line-height: 1.8;
+    font-family: 'Heebo', sans-serif;
+    font-weight: 300;
+}
+
+.headon-body a:hover {
+    text-decoration: underline;
+}
+
+.headon .title a {
+    font-size: 3.8rem;
+    font-weight: 100;
+}
+
+.headon .sub-newsprint a {
+    font-size: 1.8rem;
+}
+
+.headon .headon-body a {
+    font-size: 1.4rem;
+}
+
+.promotion {
+    display: flex;
+    width: 100%;
+    list-style-type: none;
+}
+
+.promotion-list {
+    width: 28%
+}
+
+.promotion-image {
+    width: 100%
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 48px;
+}
+
+.footer-paper {
+    display: flex;
+    flex-direction: column;
+    color: #6e6e6e;
+    font-size: .8334em;
+    line-height: 1.2;
+    margin: 0px auto;
+}
+
+.up-footer {
+    display: flex;
+    flex-direction: row;
+}
+
+.up-footer .left {
+    align-self: flex-start;
+    flex-grow: 49;
+    text-align: left;
+    padding-top: 1.5em;
+    height: 1.2em;
+}
+
+.up-footer .right {
+    display: flex;
+    padding-top: 1.5em;
+    flex-grow: 51;
+    text-align: right;
+    margin-left: 48px;
+}
+
+.down-footer {
+    display: flex;
+    height: 1.2em;
+    padding-top: 1.5em;
+}
+
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+.footer li:nth-child(n+2) {
+    border-left: 1px solid #ccc;
+    margin-left: .6em;
+    padding-left: .6em;
+}
+
+.footer .world-wide {
+    width: 16px;
+    height: 12px;
+    padding: 0px 8px;
+}
+
+.footer .world-wide image.img {
+    height: 100%;
+}
