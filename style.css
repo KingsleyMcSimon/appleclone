@@ -47,30 +47,13 @@ table {
 	border-spacing: 0;
 }
 
-/*************CSS RESET****************************/
-
-body,
-input,
-li,
-ul,
-p,
-p,
-h1,
-h2 {
-    margin: 0px;
-    padding: 0px;
-}
-
-a:link,
-a:visited,
-a:active {
-    text-decoration: none;
-    color: #08c;
-}
-
 body {
-    font: 19px "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
-    /*background-image: url("https://web.archive.org/web/20140301004302im_/http://images.apple.com/v/home/as/images/your_verse_hero.jpg");*/
+    font: 12px/18px "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+   /* border-image-slice: 100%;
+    -webkit-font-smoothing: antialiased;
+    /*line-height: 18px;
+    width: 980px*/
+
 
     
 }
@@ -204,7 +187,7 @@ ul.liston {
     width: 100%
 }
 
-.footer {
+/*.footer {
     display: flex;
     justify-content: center;
     width: 100%;
@@ -266,4 +249,40 @@ ul.liston {
 
 .footer .world-wide image.img {
     height: 100%;
+}*/
+
+
+
+.footer1 {
+	width: 50%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	font-size: 9px;
+	font-family: sans-serif;
+	color: #555;
+}
+
+.applestore {
+	width: 70%;
+	height: 20px;
+}
+.copyright p{
+	width: 70%;
+	height: 20px;
+    margin-top: 8px;
+    display: flex;
+    flex-direction: row;
+}
+
+.footer2 ul li {
+	display: inline-block;
+	border-right: 1px solid #333;
+	color: #08c;
+	font-size: 11px;
+	font-family: sans-serif;
+	padding-right: 5px;
+	margin-top: 25px;
 }
