@@ -9,6 +9,6 @@ Kingsley McSimon Ogbonna
 
 Check the live preview here: www.https://raw.githack.com/KingsleyMcSimon/appleclone/master/index.html
 
-You can view the complete work here at my repo: https://github.com/KingsleyMcSimon/appleclone
+You can check for the complete work at my repo: https://github.com/KingsleyMcSimon/appleclone
 
 View the original page here: https://web.archive.org/web/20140301004610/http://www.apple.com/
