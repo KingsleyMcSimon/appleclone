@@ -5,125 +5,87 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale-1">
     <title>Apple Clone</title>
-    <script defer src="https://use.fontawesome.com/releases/v5.8.1/js/all.js"
-        integrity="sha384-g5uSoOSBd7KkhAMlnQILrecXvzst9TdC09/VM+pjDTCM+1il8RHz5fKANTFFb+gQ" crossorigin="anonymous">
-        </script>
     <link rel="stylesheet" href="style.css" type="text/css">
     <link rel="stylesheet" type="text/css" href="cssreset.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400|Roboto&display=swap" rel="stylesheet">
 </head>
 
 <body>
 
-    <nav class="navigator">
-        <ul class="liston">
-            <li class="apple-icon"><a href="#">
-                    <div></div>
-                </a></li>
-
-            <li><a href="#"><span>Store</span></a></li>
-            <li><a href="#"><span>Mac</span></a></li>
-            <li><a href="#"><span>iPod</span></a></li>
-            <li><a href="#"><span>iPhone</span></a></li>
-            <li><a href="#"><span>iPad</span></a></li>
-            <li><a href="#"><span>iTune</span></a></li>
-            <li><a href="#"><span>Support</span></a></li>
-
-            <div class="search-wrapper">
-                <form action="/" method="post">
-                    <div class="form">
-                        <input type="search" name="search" id="search-text" />
-                        <label class="label" for="search-text"><i class="fas fa-search"></i></label>
-                    </div>
-                </form>
+    <nav class="top-nav">
+        <ul>
+            <li><i class="fa fa-apple" aria-hidden="true"></i></li>
+            <li><a href="#">Store</a></li>
+            <li><a href="#">Mac</a></li>
+            <li><a href="#">iPod</a></li>
+            <li><a href="#">iPhone</a></li>
+            <li><a href="#">iPad</a></li>
+            <li><a href="#">iTunes</a></li>
+            <li><a href="#">Support</a></li>
+            <li class="searchbox-icon"><i class="fa fa-search"></i><input type="search" name="search" class="searchbox">
+            </li>
         </ul>
     </nav>
-
-    <div class="class-image">
-        <article class="newsprint">
-            <header class="headon">
-                <p class="title">
-
-                    <a href="#">What will your verse be?</a>
-                </p>
-
-                <h2 class="sub-newsprint"><a href="#">
-                        Everyone has something to share. See how people are using iPad in their
-                        unique ways to add to the world's story.</a></h2>
-
-                <div class="headon-body">
-                    <h2> <a href="#"> Watch the "Your Verse film and explore the stories"
-                        </a>
-                </div>
-                </h2>
-            </header>
-        </article>
-    </div>
-    </div>
-
-    <aside>
-        <ul class="promotion">
-            <li class="promotion-list">
-                <a href="#">
-                    <img class="promotion-image" src="images/appleimage1.jpg" width="365" height="200"
-                        alt="promotion-image"></a> </li>
-
-            <li class="promotion-list">
-                <a href="#">
-                    <img class="promotion-image" src="images/appleimage2.jpg" width="365" height="200"
-                        alt="promotion-image"></a> </li>
-
-            <li class="promotion-list">
-                <a href="#">
-                    <img class="promotion-image" src="images/appleimage3.jpg" width="300" height="200"
-                        alt="promotion-image"></a> </li>
-
-            <li class="promotion-list">
-                <a href="#">
-                    <img class="promotion-image" src="images/appleimage4.jpg" width="300" height="200"
-                        alt="promotion-image"> </a> </li>
-        </ul>
-    </aside>
-
-
-    </div>
-
-    <footer id="my-footer">
-        <div class="container">
-            <p class="left">
-                " Shop the "<a href="#">Apple Online Store</a> " (1-800-MY-APPLE),
-                visit an" <a href="#">Apple Retail Store</a> ", or find a " <a href="#">
-                    reseller</a> "." </p>
+    
+    <main>
+        <section class="top-header">
+            <a href="#">
+                <div class="image1"></div>
+            </a>
+            <a href="#">
+                <div class="image2"></div>
+            </a>
+            <a href="#">
+                <div class="image3"></div>
+            </a>
+        </section>
+    
+    </main>
+    
+    
+    <footer>
+        <div class="secondary container">
+            <a href="#">
+                <div class="promo-pix"></div>
+            </a>
+            <a href="#">
+                <div class="promo-pix"></div>
+            </a>
+            <a href="#">
+                <div class="promo-pix"></div>
+            </a>
+            <a href="#">
+                <div class="promo-pix"></div>
+            </a>
         </div>
-
-
-        <div class="copyright">
-
-            <p> Copyright &copy 2014 Apple Inc. All rights reserved.</p>
-
-            <p> <a href="#">Terms of Use</a>|</p>
-            <p><a href="#">Privacy Policy</a></p>
-
-
+    
+        <div class="lower-footer container">
+            <div>
+                <p>
+                    Shop the <a href="#">Apple Online Store</a> (1-800-MY-APPLE), visit an <a href="#">Apple Retail
+                        Store</a>, or find a <a href="#">reseller</a>.</p> <br>
+                <p>
+                    Copyright &copy 2014 Apple Inc. All rights reserved. <a href="#">Terms of Use</a> | <a href="#">Privacy
+                        Policy</a> </p>
+            </div>
+    
+            <div>
+                <ul>
+                    <li><a href="#">Site Map</a></li>
+                    <li><a href="#">Hot News</a></li>
+                    <li><a href="#">RSS Feeds</a></li>
+                    <li><a href="#">Media Info</a></li>
+                    <li><a href="#">Environment</a></li>
+                    <li><a href="#">Job Opportunities</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#"><img class="image" src="images/uslogo.png" alt="usalogo"></a>
+                    </li>
+    
+                </ul>
+            </div>
         </div>
-
-        <div class="footer2">
-            <ul>
-                <li><a href="#">Site Map</a></li>
-                <li><a href="#">Hot News</a></li>
-                <li><a href="#">RSS Feeds</a></li>
-                <li><a href="#">Media Info</a></li>
-                <li><a href="#">Environment</a></li>
-                <li><a href="#">Job Opportunities</a></li>
-                <li><a href="#">Contact Us</a></li>
-                <li><a href="#">IMG</a></li>
-                <li><a href="#"><img class="image" src="images/uslogo.png" alt="usalogo"></a>
-                </li>
-
-            </ul>
-        </div>
-        </div>
+        </body>
     </footer>
-</body>
-
-</html>
+    
+    </html>
