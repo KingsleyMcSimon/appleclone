@@ -1,9 +1,9 @@
-#Project Description:
+# Project Description:
 Building With Background And Gradients using HTML and CSS3.
 
 Using the skills learnt from the topic above to clone the old apple.com homepage.
 
-#Designed By:
+# Designed By:
 Kingsley McSimon Ogbonna
 @KingsleyMcSimon
 
