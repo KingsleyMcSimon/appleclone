@@ -1,7 +1,10 @@
-body {
+*{
   margin: 0;
   padding: 0;
   font-family: "Lato", sans-serif;
+}
+
+body {
   background-image: url("images/appleimage.jpg");
   background-color: white;
   background-repeat: no-repeat;
@@ -110,7 +113,9 @@ main {
   background-size: auto;
   height: 230px;
   width: 960px;
-  margin: 60px 0 -20px 0;
+  margin: 80px 0 -20px 0;
+  padding-left: 80px;
+  padding-right: 130px;
 }
 
 .image2 {
@@ -121,6 +126,8 @@ main {
   height: 82px;
   width: 980px;
   margin-bottom: 25px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .image3 {
@@ -130,6 +137,8 @@ main {
   height: 31px;
   width: 960px;
   background-position: bottom;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /********FOOTER********/
