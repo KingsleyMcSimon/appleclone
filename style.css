@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   font-family: "Lato", sans-serif;
+  box-sizing: border-box;
 }
 
 body {
@@ -9,8 +10,9 @@ body {
   background-color: white;
   background-repeat: no-repeat;
   background-position: bottom;
-  background-size: cover;
-  height: 100vh;
+  background-size: cover; 
+  height: 375px;
+
 }
 
 main {
@@ -21,7 +23,7 @@ main {
 .top-nav {
   width: 100%;
   position: absolute;
-  top: 150px;
+  top: 70px;
 }
 
 .top-nav .fa {
@@ -83,15 +85,10 @@ main {
   margin: 0 auto;
 }
 
-.top-header {
-  background-image: url("images/appleimage.jpg");
-  background-color: white;
-  background-repeat: no-repeat;
-  background-position: bottom;
+ .top-header {
+  background-position: bottom; 
   background-size: cover;
-  height: 100vh;
-  align-items: center;
-  justify-content: center;
+  height: 375px;
 }
 
 .img-responsive {
@@ -111,11 +108,11 @@ main {
   background-repeat: no-repeat;
   background-position: bottom;
   background-size: auto;
-  height: 230px;
+  height: 165px;
   width: 960px;
-  margin: 80px 0 -20px 0;
-  padding-left: 80px;
-  padding-right: 130px;
+  margin: 85px 0 -20px 120px;
+  padding-left: 100px;
+  padding-right: 0px;
 }
 
 .image2 {
@@ -139,6 +136,7 @@ main {
   background-position: bottom;
   margin-left: auto;
   margin-right: auto;
+  padding-top: 20px;
 }
 
 /********FOOTER********/
