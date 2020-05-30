@@ -1,4 +1,4 @@
-*{
+* {
   margin: 0;
   padding: 0;
   font-family: "Lato", sans-serif;
@@ -10,7 +10,7 @@ body {
   background-color: white;
   background-repeat: no-repeat;
   background-position: bottom;
-  background-size: cover; 
+  background-size: cover;
   height: 375px;
 
 }
@@ -87,7 +87,7 @@ main {
 }
 
  .top-header {
-  background-position: bottom; 
+  background-position: bottom;
   background-size: cover;
   height: 375px;
 }
